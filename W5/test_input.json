@@ -1,0 +1,8 @@
+{
+  "search_type": ["BFS", "DFS", "DLS", "IDS", "ILS", "UCS"],
+  "initial_state": [3, 3, 0],
+  "depth_limit": 11,
+  "m": 3,
+  "c": 3,
+  "goal_boat": 1
+}

@@ -1,0 +1,121 @@
+===== Running tests from test_input.json =====
+
+--- [BFS] ---
+Solution found in 11 moves (12 states).
+Solution Path:
+  Start State: S(m=3,c=3,boat=L)
+  Step 1: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=1,boat=R)
+  Step 2: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=2,boat=L)
+  Step 3: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=0,boat=R)
+  Step 4: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=1,boat=L)
+  Step 5: Move 2M, 0C Left to Right.  -->  New State: S(m=1,c=1,boat=R)
+  Step 6: Move 1M, 1C Right to Left.  -->  New State: S(m=2,c=2,boat=L)
+  Step 7: Move 2M, 0C Left to Right.  -->  New State: S(m=0,c=2,boat=R)
+  Step 8: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=3,boat=L)
+  Step 9: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=1,boat=R)
+  Step 10: Move 1M, 0C Right to Left.  -->  New State: S(m=1,c=1,boat=L)
+  Step 11: Move 1M, 1C Left to Right.  -->  New State: S(m=0,c=0,boat=R)
+
+Time taken: 0.177 ms
+Memory used: 3.82 KB
+-------------------------
+
+--- [DFS] ---
+Solution found in 11 moves (12 states).
+Solution Path:
+  Start State: S(m=3,c=3,boat=L)
+  Step 1: Move 1M, 1C Left to Right.  -->  New State: S(m=2,c=2,boat=R)
+  Step 2: Move 1M, 0C Right to Left.  -->  New State: S(m=3,c=2,boat=L)
+  Step 3: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=0,boat=R)
+  Step 4: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=1,boat=L)
+  Step 5: Move 2M, 0C Left to Right.  -->  New State: S(m=1,c=1,boat=R)
+  Step 6: Move 1M, 1C Right to Left.  -->  New State: S(m=2,c=2,boat=L)
+  Step 7: Move 2M, 0C Left to Right.  -->  New State: S(m=0,c=2,boat=R)
+  Step 8: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=3,boat=L)
+  Step 9: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=1,boat=R)
+  Step 10: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=2,boat=L)
+  Step 11: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=0,boat=R)
+
+Time taken: 0.125 ms
+Memory used: 2.41 KB
+-------------------------
+
+--- [DLS_d11] ---
+Solution found in 11 moves (12 states).
+Solution Path:
+  Start State: S(m=3,c=3,boat=L)
+  Step 1: Move 1M, 1C Left to Right.  -->  New State: S(m=2,c=2,boat=R)
+  Step 2: Move 1M, 0C Right to Left.  -->  New State: S(m=3,c=2,boat=L)
+  Step 3: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=0,boat=R)
+  Step 4: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=1,boat=L)
+  Step 5: Move 2M, 0C Left to Right.  -->  New State: S(m=1,c=1,boat=R)
+  Step 6: Move 1M, 1C Right to Left.  -->  New State: S(m=2,c=2,boat=L)
+  Step 7: Move 2M, 0C Left to Right.  -->  New State: S(m=0,c=2,boat=R)
+  Step 8: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=3,boat=L)
+  Step 9: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=1,boat=R)
+  Step 10: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=2,boat=L)
+  Step 11: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=0,boat=R)
+
+Time taken: 0.119 ms
+Memory used: 2.41 KB
+-------------------------
+
+--- [IDS_d11] ---
+Solution found in 11 moves (12 states).
+Solution Path:
+  Start State: S(m=3,c=3,boat=L)
+  Step 1: Move 1M, 1C Left to Right.  -->  New State: S(m=2,c=2,boat=R)
+  Step 2: Move 1M, 0C Right to Left.  -->  New State: S(m=3,c=2,boat=L)
+  Step 3: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=0,boat=R)
+  Step 4: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=1,boat=L)
+  Step 5: Move 2M, 0C Left to Right.  -->  New State: S(m=1,c=1,boat=R)
+  Step 6: Move 1M, 1C Right to Left.  -->  New State: S(m=2,c=2,boat=L)
+  Step 7: Move 2M, 0C Left to Right.  -->  New State: S(m=0,c=2,boat=R)
+  Step 8: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=3,boat=L)
+  Step 9: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=1,boat=R)
+  Step 10: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=2,boat=L)
+  Step 11: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=0,boat=R)
+
+Time taken: 0.809 ms
+Memory used: 2.45 KB
+-------------------------
+
+--- [ILS] ---
+Solution found in 11 moves (12 states).
+Solution Path:
+  Start State: S(m=3,c=3,boat=L)
+  Step 1: Move 1M, 1C Left to Right.  -->  New State: S(m=2,c=2,boat=R)
+  Step 2: Move 1M, 0C Right to Left.  -->  New State: S(m=3,c=2,boat=L)
+  Step 3: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=0,boat=R)
+  Step 4: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=1,boat=L)
+  Step 5: Move 2M, 0C Left to Right.  -->  New State: S(m=1,c=1,boat=R)
+  Step 6: Move 1M, 1C Right to Left.  -->  New State: S(m=2,c=2,boat=L)
+  Step 7: Move 2M, 0C Left to Right.  -->  New State: S(m=0,c=2,boat=R)
+  Step 8: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=3,boat=L)
+  Step 9: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=1,boat=R)
+  Step 10: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=2,boat=L)
+  Step 11: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=0,boat=R)
+
+Time taken: 2.612 ms
+Memory used: 3.06 KB
+-------------------------
+
+--- [UCS] ---
+Solution found in 11 moves (12 states).
+Solution Path:
+  Start State: S(m=3,c=3,boat=L)
+  Step 1: Move 1M, 1C Left to Right.  -->  New State: S(m=2,c=2,boat=R)
+  Step 2: Move 1M, 0C Right to Left.  -->  New State: S(m=3,c=2,boat=L)
+  Step 3: Move 0M, 2C Left to Right.  -->  New State: S(m=3,c=0,boat=R)
+  Step 4: Move 0M, 1C Right to Left.  -->  New State: S(m=3,c=1,boat=L)
+  Step 5: Move 2M, 0C Left to Right.  -->  New State: S(m=1,c=1,boat=R)
+  Step 6: Move 1M, 1C Right to Left.  -->  New State: S(m=2,c=2,boat=L)
+  Step 7: Move 2M, 0C Left to Right.  -->  New State: S(m=0,c=2,boat=R)
+  Step 8: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=3,boat=L)
+  Step 9: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=1,boat=R)
+  Step 10: Move 0M, 1C Right to Left.  -->  New State: S(m=0,c=2,boat=L)
+  Step 11: Move 0M, 2C Left to Right.  -->  New State: S(m=0,c=0,boat=R)
+
+Time taken: 0.201 ms
+Memory used: 3.06 KB
+-------------------------
